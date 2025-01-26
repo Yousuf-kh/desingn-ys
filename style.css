@@ -292,7 +292,7 @@ nav {
             gap: 20px;
 
             h1 {
-                font-size: 64px;
+                font-size: clamp(2.5rem, 1.9808rem + 2.3077vw, 4rem);
                 color: #fff;
 
                 span {
@@ -336,7 +336,7 @@ nav {
     padding-bottom: clamp(3.125rem, -0.1202rem + 14.4231vw, 12.5rem);
 
     h1 {
-        font-size: 64px;
+        font-size: clamp(2.5rem, 1.9808rem + 2.3077vw, 4rem);
         color: #fff;
         padding-bottom: 30px;
 
