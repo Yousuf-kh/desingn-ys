@@ -365,7 +365,7 @@ nav {
     }
 
     div {
-        padding: 30px;
+        padding: clamp(0.625rem, -0.0272rem + 2.1739vw, 1.875rem);
         background-color: #ffffff7b;
         border-radius: 10px;
 
